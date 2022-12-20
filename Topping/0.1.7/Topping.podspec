@@ -36,11 +36,11 @@ If you know how to write Android code, learning curve of this engine is very sim
   s.swift_versions = '4.0'
   
   s.pod_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    #'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'IPHONEOS_DEPLOYMENT_TARGET' => '10.0'
   }
   s.user_target_xcconfig = {
-    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+    #'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
     'IPHONEOS_DEPLOYMENT_TARGET' => '10.0'
   }
 

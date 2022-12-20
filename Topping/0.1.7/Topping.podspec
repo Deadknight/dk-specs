@@ -31,7 +31,7 @@ If you know how to write Android code, learning curve of this engine is very sim
   s.dependency 'ActionSheetPicker-3.0', '2.5.0'
   s.dependency 'MBProgressHUD', '1.2.0'
   
-  s.vendored_frameworks = 'Topping.framework'
+  s.vendored_frameworks = 'Topping.xcframework'
   s.ios.deployment_target = '10.0'
   s.swift_versions = '4.0'
   

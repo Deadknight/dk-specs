@@ -25,10 +25,6 @@ If you know how to write Android code, learning curve of this engine is very sim
   s.source = { :http=> 'https://localhost:8080/topping.zip' }
   
   #s.social_media_url = 'https://www.twitter.com/toppingdev'
-
-  s.dependency 'GDataXML-HTML', '1.4.1'
-  s.dependency 'ActionSheetPicker-3.0', '2.5.0'
-  s.dependency 'MBProgressHUD', '1.2.0'
   
   s.vendored_frameworks = 'Topping.xcframework'
   s.ios.deployment_target = '13.0'

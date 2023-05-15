@@ -31,16 +31,16 @@ If you know how to write Android code, learning curve of this engine is very sim
   s.dependency 'MBProgressHUD', '1.2.0'
   
   s.vendored_frameworks = 'Topping.xcframework'
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
   s.swift_versions = '4.0'
   
   s.pod_target_xcconfig = {
     #'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-    'IPHONEOS_DEPLOYMENT_TARGET' => '10.0'
+    'IPHONEOS_DEPLOYMENT_TARGET' => '13.0'
   }
   s.user_target_xcconfig = {
     #'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
-    'IPHONEOS_DEPLOYMENT_TARGET' => '10.0'
+    'IPHONEOS_DEPLOYMENT_TARGET' => '13.0'
   }
 
 end
